@@ -1,9 +1,44 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+body{
+  background-color: pink;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+  font-size: 42px;
+  color: rgb(244, 63, 123);
+}
+
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+  color: rgb(244, 63, 123);
+}
+
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', cursive;
+  font-style: italic;
+  color: #bc016b;
+}
+
+.challenge {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 5px #dc4c9b;
+  background-color: #bbd7b0;
   }
+
+.problems {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: double 5px #888;
+  background-color: #fec5e3;
+}
+
+.reflect {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dashed 2.5px #c8049d;
+  background-color: #a1c2a4;
+}

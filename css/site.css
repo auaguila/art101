@@ -4,7 +4,12 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #50808E;
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  /* colors can be specified by name, or by "hex value" */
+  color: black;
+  background-color: #0f311b;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -24,7 +29,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #888;
-  background-color: #84B59F;
+  background-color: #194f2b;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -32,5 +37,9 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #A3C9A8;
+  background-color: #277b43;
+}
+
+a{
+  color: black;
 }

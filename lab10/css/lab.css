@@ -1,10 +1,10 @@
 body{
-    font-family: Verdana,sans-serif;
+    font-family:sans-serif;
     font-size: 15px;
     line-height: 1.5;
     /* colors can be specified by name, or by "hex value" */
     color: black;
-    background-color: #b9ccb1;
+    background-color: #f59ce6;
 }
 
   
@@ -27,8 +27,8 @@ h1{
     margin: 3px;
     padding: 5px 10px;
     border-radius: 15px;
-    background-color: darkgray;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.213);
+    color: black;
     font-family: sans-serif;
     font-size: 0.8em;
   }

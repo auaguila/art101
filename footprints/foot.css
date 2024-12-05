@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0f8ff;
+    position: relative;
+}
+
+.footprint {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-size: cover;
+    opacity: 0;
+    animation: moveFootprint 5s linear infinite;
+}
+
+.dog-footprint {
+    background-image: url('paw.png'); /* Replace with actual image */
+    animation-delay: 1s;
+}
+
+.cat-footprint {
+    background-image: url('paw.png'); /* Replace with actual image */
+    animation-delay: 1s;
+}
+
+@keyframes moveFootprint {
+    0% {
+        top: 100%;
+        left: 20%;
+        opacity: 1;
+    }
+    50% {
+        left: 50%;
+        transform: rotate(45deg);
+    }
+    100% {
+        top: -10%;
+        left: 80%;
+        opacity: 0;
+    }
+}

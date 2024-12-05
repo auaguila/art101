@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Lab 11 - JavaScript Events & Forms</title>
+
+        <link rel="stylesheet" type="text/css" href="css/lab.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./js/lab.js" DEFER></script>
+
+    </head>
+    <body>
+        <div id="content">
+            
+            <h1>Lab 11 - JavaScript Events & Forms</h1>
+            <h2>Challenge</h2>
+            <p>The challenge of this assignment is to create a web page that
+                fetches and displays data from the XKCD API, allowing users to
+                view the lates comic and navigate through previous and next
+                comics using AJAX, while managing proper button states and
+                handling erros effectively. 
+            </p>
+            <h2>Problems</h2>
+            <p>I initially struggled with the URL not working due to CORS
+                restriction, which prevented the API call from fetching the
+                data properly. After troubleshooting and using a proxy service,
+                I was able to fix the issue and retrieve the comic data.
+            </p>
+            <h2>Reflection</h2>
+            <p>This lab was a good balance of challenge and learning. It wasn't
+                too easy, bit it also wasn't overly difficult, and it helped me
+                better understand working with APIs, handling CORS issues, and
+                using AJAX for dynamic content. Overall, it was a good
+                experience that improved my problem solving and debugging
+                skills.
+            </p>
+            <h2>Results</h2>
+            <div id="output"></div>
+            <div id="navigation">
+                <button id="prev">Previous</button>
+                <button id="next">Next</button>
+            </div>
+
+
+        </div>
+    </body>
+</html>
